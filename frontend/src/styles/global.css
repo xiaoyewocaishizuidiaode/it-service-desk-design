@@ -1,0 +1,57 @@
+:root {
+  color: #1f2937;
+  background: #f3f6fb;
+  font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  line-height: 1.5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(180deg, #eef4fb 0%, #f8fafc 100%);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.app-shell {
+  min-height: 100vh;
+}
+
+.app-sider {
+  border-inline-end: 1px solid #dbe4f0;
+}
+
+.brand-block {
+  padding: 24px 20px 12px;
+}
+
+.brand-block .ant-typography {
+  margin-bottom: 4px;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  padding-inline: 24px;
+  background: rgba(255, 255, 255, 0.85);
+  border-bottom: 1px solid #dbe4f0;
+}
+
+.app-content {
+  padding: 24px;
+}
+
+.page-grid {
+  display: grid;
+  gap: 16px;
+}
+
+.plain-list {
+  margin: 0;
+  padding-left: 18px;
+}

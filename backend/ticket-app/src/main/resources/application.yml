@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: ticket-app
+  datasource:
+    url: jdbc:mysql://localhost:3306/itsm?useSSL=false&serverTimezone=Asia/Shanghai&characterEncoding=utf8
+    username: itsm
+    password: itsm
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/itsm
+    redis:
+      host: localhost
+      port: 6379
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+  elasticsearch:
+    uris: http://localhost:9200
+
+server:
+  port: 8080
